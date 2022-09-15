@@ -18,10 +18,10 @@ form {
 }
 input:required {
     border-color: #FFB039;
-    border-width: 3px;
+    border-width: 1px;
 }
 input:required:invalid {
-    border-color: #468189;
+    border-color: #FDFFFF;
 }
 .label {
     font-family: 'Roboto';
