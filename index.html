@@ -11,14 +11,14 @@
 <body>
     <form>
         <label for="name" class="label">FULL NAME</label>
-        <input type="text">
+        <input type="text" id="name" required>
         <label for="email" class="label">EMAIL</label>
-        <input type="email" placeholder="Your Email">
-        <label for="message" class="label">MESSAGE REGARDING</label>
-        <input type="text">
+        <input type="email" id="email" placeholder="Your Email">
+        <label for="message-title" class="label">MESSAGE REGARDING</label>
+        <input type="text" id="message-title" required>
         <label for="message" class="label">MESSAGE</label>
-        <input type="text" placeholder="Your Message">
-        <button>SEND MESSAGE</button>
+        <input type="text" id="message" required placeholder="Your Message">
+        <button type="submit">SEND MESSAGE</button>
     </form>
     <img src="images/duck.png" alt="rubber duckie">
 </body>

@@ -16,6 +16,13 @@ form {
     display: flex;
     flex-direction: column;
 }
+input:required {
+    border-color: #FFB039;
+    border-width: 3px;
+}
+input:required:invalid {
+    border-color: #468189;
+}
 .label {
     font-family: 'Roboto';
     font-style: normal;
@@ -46,6 +53,11 @@ input {
     border-top: none;
     border-left: none;
     border-right: none;
+    transition-duration: 1s;
+}
+input:hover {
+    background-color:#FFB039;
+    color:#FDFFFF;
 }
 button {
     font-family: 'Roboto';
